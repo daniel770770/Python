@@ -24,10 +24,9 @@ def is_valid_input(letter_guessed):
         print("E2")
     else:
         print(lower_letter)
-    
+
 
 def main():
-
 #intro screen
 
     ANGMAN_ASCII_ART = (
@@ -50,7 +49,7 @@ def main():
     n = random.randint(4,10)
     print(n)
 
- 
+
 #The player will ask to guess a letter.
 
     letter_guessed = input("Guess a letter: ")
@@ -60,8 +59,7 @@ def main():
     is_valid_input(letter_guessed)
 
 #The player will ask to guess a word
-
-    word = input("Please enter a word: ") 
+   word = input("Please enter a word: ")
 
 #prints the lower lines 
 
